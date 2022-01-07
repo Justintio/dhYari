@@ -60,7 +60,7 @@ elif nama=='kesayangan juju' :
   if sayang2 == 'sayang' :
     st.title('cie sayang cie')
     tahun = st.slider("seberapa sayang emang?", min_value=0, max_value=100)
-    if tahun == 0 - 99 :
+    if tahun == range[0 - 99] :
       st.title('cih tidak sayang itumah')
     if tahun == 100 :
        st.title('hehehe gitudong')

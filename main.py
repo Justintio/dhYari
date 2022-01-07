@@ -10,6 +10,6 @@ left_col, mid_col, right_col = st.columns(3)
 if nama=='kosong' :
   left_col.write(' ')
 if nama=='yari' :
-  left_col.write('cih polosan amat yari doang :P')
+  st.title('cih polosan amat yari doang :P')
 elif nama=='bukann yari' :
-  left_col.write('pasti mba kunti')
+  st.title('pasti mba kunti')

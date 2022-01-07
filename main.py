@@ -65,34 +65,79 @@ elif nama=='kesayangan juju' :
        st.title('karena gatau disini mau diisi apa kita liat2 poto aja kaliyak')
        foto1 = Image.open('1.jpg')
        st.image(foto1)
+       st.title('cis baru jadian yahahha, macam kopi susu lagi fak')
+       st.title(' ')
+      
        foto2 = Image.open('2.jpg')
        st.image(foto2)
+       st.title('udah rada tampan dan putih ni aku')
+       st.title(' ')
+      
        foto3 = Image.open('3.jpg')
        st.image(foto3)
+       st.title('cie mau sama bapack bapack')
+       st.title(' ')
+      
        foto4 = Image.open('4.jpg')
        st.image(foto4)
+       st.title('tijel tp lucu')
+       st.title(' ')
+      
        foto5 = Image.open('5.jpg')
        st.image(foto5)
+       st.title('ini juga lucu kamu')
+       st.title(' ')      
+      
        foto6 = Image.open('6.jpg')
        st.image(foto6)
+       st.title('ikut ikut bajunya')
+       st.title(' ')
+      
        foto7 = Image.open('7.jpg')
        st.image(foto7)
+       st.title('nih bocah dah bucin ae')
+       st.title(' ')
+      
        foto8 = Image.open('8.jpg')
        st.image(foto8)
+       st.title('apa kamu')
+       st.title(' ')
+      
        foto9 = Image.open('9.jpg')
        st.image(foto9)
+       st.title('nyosor wae sukanya')
+       st.title(' ')
+      
        foto10 = Image.open('10.jpg')
        st.image(foto10)
+       st.title('eits bocil gemoy lewat')
+       st.title(' ')      
+     
        foto11 = Image.open('11.11.jpg')
        st.image(foto11)
+       st.title('kucing')
+       st.title(' ')
+        
        foto12 = Image.open('12.jpg')
        st.image(foto12)
+       st.title('bwa bocil lewat lagi')
+       st.title(' ')    
+        
        foto13 = Image.open('13.jpg')
        st.image(foto13)
+       st.title('kita dah cakep maksimal ini')
+       st.title(' ')   
+        
        foto14 = Image.open('14.jpg')
        st.image(foto14)
-       foto1 = Image.open('15.jpg')
+       st.title('maksimal +++')
+       st.title(' ')   
+        
+       foto15 = Image.open('15.jpg')
        st.image(foto15)
+       st.title('dan ini tadi pagi')
+       st.title('the end')
+       st.title(' ')          
        st.title('udah capek sumpa')
     
     

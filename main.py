@@ -30,3 +30,14 @@ elif nama=='bukann yari' :
   st.title('pasti mba kunti')
   image = Image.open('abc.jpg')
   st.image(image)
+  kaget = ['pilih', 'kaget', 'engga']
+  kaget2 = st.selectbox('Lanjut ga ? ', kaget)
+   if kaget == 'pilih' :
+    st.title(' ')
+  if kaget == 'kaget' :
+    st.title('ututuu kasian bgt kaget')
+  if kaget == 'engga' :
+    image2 = Image.open('def.jpg')
+    st.image(image2)
+    st.title('ga kaget kan wkwk')
+    st.title('udah deh kasian ntar gabisa bobo :D')

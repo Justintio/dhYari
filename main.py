@@ -1,1 +1,1 @@
-st.write.tittle("Hai !")
+st.tittle("Hai !")

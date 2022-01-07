@@ -32,7 +32,7 @@ elif nama=='bukann yari' :
   image = Image.open('abc.jpg')
   st.image(image)
   kaget = ['pilih', 'kaget', 'engga']
-  kaget2 = st.selectbox('Lanjut ga ? ', kaget)
+  kaget2 = st.selectbox('kaget ga ? ', kaget)
   if kaget2 == 'pilih' :
     st.title(' ')
   if kaget2 == 'kaget' :

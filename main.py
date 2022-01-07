@@ -11,7 +11,7 @@ if nama=='kosong' :
   left_col.write(' ')
 if nama=='yari' :
   st.title('cih polosan amat yari doang :P')
-  lanjut = ['lanjut', 'ga']
+  lanjut = ['ga', 'lanjut']
   lanjut2 = st.selectbox('Lanjut ga ? ', lanjut) 
   if lanjut2 == 'ga' :
     st.title('yaudin')
@@ -28,4 +28,4 @@ if nama=='yari' :
     st.title('hahaha dah coba yang lain sana !')
 elif nama=='bukann yari' :
   st.title('pasti mba kunti')
-  image = Image.open('w1200.jfif.jpg')
+  image = Image.open('abc.jpg')

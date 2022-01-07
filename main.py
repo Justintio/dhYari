@@ -3,10 +3,12 @@ from PIL import Image
 
 
 st.title('Hai !')
-siapa = ['yari', 'bukann yari', 'kesayangan juju', 'arip']
+siapa = ['kosong', 'yari', 'bukann yari', 'kesayangan juju', 'arip']
 nama = st.selectbox('ini saha ya ? ', siapa) 
 
 left_col, mid_col, right_col = st.columns(3)
+if nama=='kosong' :
+  left_col.write(' ')
 if nama=='yari' :
   left_col.write('cih polosan amat yari doang :P')
 elif nama=='bukann yari' :

@@ -29,3 +29,4 @@ if nama=='yari' :
 elif nama=='bukann yari' :
   st.title('pasti mba kunti')
   image = Image.open('abc.jpg')
+  st.image(image)

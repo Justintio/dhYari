@@ -8,6 +8,6 @@ nama = st.selectbox('ini saha ya ? ', siapa)
 
 left_col, mid_col, right_col = st.columns(3)
 if nama=='yari' :
-  mid_col.write('cih polosan amat yari doang :P')
+  left_col.write('cih polosan amat yari doang :P')
 elif nama=='bukann yari' :
-  mid_col.write('pasti mba kunti')
+  left_col.write('pasti mba kunti')

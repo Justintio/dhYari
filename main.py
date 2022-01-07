@@ -5,7 +5,7 @@ from PIL import Image
 st.sidebar.title('creator')
 st.sidebar.header('by : Justin Tio')
 image10 = Image.open('foto.jpg')
-st.image(image10)
+st.sidebar.image(image10)
 
 st.title('Hai !')
 siapa = ['kosong', 'yari', 'bukann yari', 'kesayangan juju', 'arip']

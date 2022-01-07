@@ -29,6 +29,7 @@ if nama=='yari' :
     
 elif nama=='bukann yari' :
   st.title('pasti mba kunti')
+  st.title('bwaaa')
   image = Image.open('abc.jpg')
   st.image(image)
   kaget = ['pilih', 'kaget', 'engga']
@@ -38,6 +39,7 @@ elif nama=='bukann yari' :
   if kaget2 == 'kaget' :
     st.title('ututuu kasian bgt kaget')
   if kaget2 == 'engga' :
+    st.title('bwaa lagi')
     image2 = Image.open('def.jpg')
     st.image(image2)
     st.title('ga kaget kan wkwk')

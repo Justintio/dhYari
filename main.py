@@ -2,4 +2,6 @@ import streamlit as st
 
 st.title('Hai !')
 siapa = ['yari', 'bukann yari', 'kesayangan juju', 'arip']
-negara = st.selectbox('ini saha ya ? ', siapa) 
+nama = st.selectbox('ini saha ya ? ', siapa) 
+if nama=='yari'
+  st.write('cih polosan amat yari doang :P')

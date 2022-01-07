@@ -52,6 +52,21 @@ elif nama=='bukann yari' :
     
 elif nama=='kesayangan juju' :
   sayang = ['pilih', 'sayang', 'no']
-  sayang2 = st.selectbox('kaget ga ? ', kaget)
-  
-  
+  sayang2 = st.selectbox('beneran sayang ? ', sayang)
+  if sayang2 == 'no' :
+    st.title('pundung setaun')
+    image5 = Image.open('33.jpg')
+    st.image(image5)
+  if sayang2 == 'sayang' :
+    st.title('cie sayang cie')
+    tahun = st.slider("seberapa sayang emang?", min_value=0, max_value=100)
+    if tahun == 0 - 99 :
+      st.title('cih tidak sayang itumah')
+    if tahun == 100 :
+       st.title('hehehe gitudong')
+       st.title('karena gatau disini mau diisi apa kita liat2 poto aja kaliyak')
+
+    
+ elif nama=='arip' : 
+   st.title('cih cingkuh sama arip')
+    

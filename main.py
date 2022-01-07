@@ -25,6 +25,8 @@ if nama=='yari' :
     st.title('g')
     st.title('h')
     st.title('i lop u veri veri much')
+    image3 = Image.open('11.jpg')
+    st.image(image3)
     st.title('hahaha dah coba yang lain sana !')
     
 elif nama=='bukann yari' :
@@ -44,3 +46,12 @@ elif nama=='bukann yari' :
     st.image(image2)
     st.title('ga kaget kan wkwk')
     st.title('udah deh kasian ntar gabisa bobo :D')
+    st.title('mwahhh')
+    image4 = Image.open('22.jpg')
+    st.image(imag4)
+
+ elif nama=='kesayangan juju' :
+  sayang = ['pilih', 'sayang', 'no']
+  sayang2 = st.selectbox('kaget ga ? ', kaget)
+  
+  

@@ -48,7 +48,7 @@ elif nama=='bukann yari' :
     st.title('udah deh kasian ntar gabisa bobo :D')
     st.title('mwahhh')
     image4 = Image.open('22.jpg')
-    st.image(imag4)
+    st.image(image4)
     
 elif nama=='kesayangan juju' :
   sayang = ['pilih', 'sayang', 'no']

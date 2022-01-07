@@ -2,8 +2,12 @@ import streamlit as st
 from PIL import Image
 
 
+st.sidebar.title('creator')
+st.sidebar.header('by : Justin Tio')
+image10 = Image.open('foto.jpg')
+st.image(image10)
+
 st.title('Hai !')
-st.header('by : Justin Tio')
 siapa = ['kosong', 'yari', 'bukann yari', 'kesayangan juju', 'arip']
 nama = st.selectbox('ini saha ya ? ', siapa) 
 

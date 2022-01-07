@@ -67,6 +67,6 @@ elif nama=='kesayangan juju' :
        st.title('karena gatau disini mau diisi apa kita liat2 poto aja kaliyak')
 
     
- elif nama=='arip' : 
+elif nama=='arip' : 
    st.title('cih cingkuh sama arip')
     

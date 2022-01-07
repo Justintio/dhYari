@@ -3,6 +3,7 @@ from PIL import Image
 
 
 st.title('Hai !')
+st.header('by : Justin Tio')
 siapa = ['kosong', 'yari', 'bukann yari', 'kesayangan juju', 'arip']
 nama = st.selectbox('ini saha ya ? ', siapa) 
 
